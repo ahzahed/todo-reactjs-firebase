@@ -45,11 +45,11 @@ function App() {
           Add Todo
         </Button>
       </form>
-      <ul>
+      <article>
         {todos.map((item, index) => {
           return <Todo key={index} todo={item} />;
         })}
-      </ul>
+      </article>
     </div>
   );
 }
